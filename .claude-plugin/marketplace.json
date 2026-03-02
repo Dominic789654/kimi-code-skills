@@ -1,0 +1,22 @@
+{
+  "name": "kimi-code-skills",
+  "owner": {
+    "name": "Dominic789654",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Kimi Code delegation skill for Claude Code - delegate tasks to Kimi Code CLI as a subagent",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "kimi-code",
+      "description": "Delegate tasks to Kimi Code CLI for file operations, code summarization, and analysis with transparent execution and safe --print mode",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/kimi-code"
+      ]
+    }
+  ]
+}
